@@ -1,3 +1,5 @@
+package aufgabe1;
+
 public class NotenDurchschnitt {
     public static double findeNotenDurchschnitt(int[] noten)
     {

@@ -1,9 +1,9 @@
-
+package aufgabe1;
 
 public class Main {
     public static void main(String[] args) {
 //pb1
-        int[] noten = {10, 20, 30, 40, 50, 70, 20, 23, 24, 22, 38, 42, 78, 80};
+        int[] noten = {29, 37, 38, 41, 84, 67};
 
         int[] notenNichtAusreichend = NotenNichtAusreichender.findeNichtAusreichende(noten);
 //test subpunct1

@@ -1,3 +1,4 @@
+package aufgabe1;
 
 public class NotenNichtAusreichender {
     public static int[] findeNichtAusreichende(int[] noten) {

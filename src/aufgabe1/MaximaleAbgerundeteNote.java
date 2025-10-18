@@ -1,3 +1,5 @@
+package aufgabe1;
+
 public class MaximaleAbgerundeteNote {
     public static int findeMaximaleAbgerundeteNote(int[] abgerundeteNote){
         int max = abgerundeteNote[0];

@@ -11,5 +11,10 @@ public class Main {
         for (int n: notenNichtAusreichend) {
             System.out.print(n + " ");
         }
+
+        System.out.printf("\nDurchschnittswert: %.2f\n ", NotenDurchschnitt.findeNotenDurchschnitt(noten));
+
+
+
     }
 }

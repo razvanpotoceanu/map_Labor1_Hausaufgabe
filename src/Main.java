@@ -12,14 +12,17 @@ public class Main {
             System.out.print(n + " ");
         }
 //test subpunct2
-        System.out.printf("\nDurchschnittswert: %.2f\n ", NotenDurchschnitt.findeNotenDurchschnitt(noten));
+        System.out.printf("\nDurchschnittswert: %.2f ", NotenDurchschnitt.findeNotenDurchschnitt(noten));
 
 
         //test subpunct 3
         int[] abgerundet = NotenAbgerundete.notenAbgerundete(noten);
-        System.out.println("Abgerundeten Noten: ");
+        System.out.println("\nAbgerundeten Noten: ");
         for (int n: abgerundet) {
             System.out.print(n + " ");
         }
+
+        //test subpunct 4
+        System.out.println("\nMaximale abgerundete Note: " + MaximaleAbgerundeteNote.findeMaximaleAbgerundeteNote(abgerundet));
     }
 }

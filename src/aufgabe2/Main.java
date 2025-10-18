@@ -9,6 +9,8 @@ public class Main {
 
         //subpunct2
 
+        System.out.println("MinimaleZahl:" + MinimaleZahl.findeMinimaleZahl(array));
+
 
     }
 }

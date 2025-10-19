@@ -27,5 +27,19 @@ public class Main {
         for (int d : differenz) {
             System.out.print(d);
         }
+        System.out.println();
+
+        //subpunct 3
+
+        int[] array5 = {2, 3, 6, 0, 0, 0, 0, 0, 0};
+        int ziffer = 2;
+        System.out.println("Multiplikation: ");
+        int[] multiplikation = Multiplikation.multipliziereMitZiffer(array5, ziffer);
+        int start = (multiplikation[0] == 0) ? 1 : 0;
+        for (int i = start; i < multiplikation.length; i++) {
+            System.out.print(multiplikation[i]);
+        }
+
+        System.out.println();
     }
 }
